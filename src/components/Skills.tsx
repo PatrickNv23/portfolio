@@ -6,8 +6,8 @@ export default function Skills() {
       <h2>SKILLS</h2>
       <section className='grid grid-cols-3 gap-4'>
         {
-          skills.map((skill) => (
-            <figure className='bg-green-300'>
+          skills.map((skill, index: number) => (
+            <figure key={index} className='bg-green-300'>
               <img src={skill.nameLogo} alt="" className='w-10 h-10' />
               <figcaption>{skill.description}</figcaption>
             </figure>

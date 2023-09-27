@@ -6,8 +6,8 @@ export default function Projects() {
   return (
     <article>
       {
-        projects.map((project: ProjectData) => (
-          <Project project={project} />
+        projects.map((project: ProjectData, index: number) => (
+          <Project key={index} project={project} />
         ))
       }
     </article>

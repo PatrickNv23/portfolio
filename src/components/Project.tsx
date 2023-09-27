@@ -11,8 +11,8 @@ export const Project: React.FC<Props> = ({ project }) => {
       <p>{project.description}</p>
       <ul>
         {
-          project.technologies.map((technology) => (
-            <li>{technology}</li>
+          project.technologies.map((technology, index: number) => (
+            <li key={index}>{technology}</li>
           ))
         }
 
