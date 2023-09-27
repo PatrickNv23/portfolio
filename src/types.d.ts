@@ -11,3 +11,12 @@ export interface ProjectData {
   githubUrl: string,
   publicUrl: string;
 }
+
+export interface ExperienceData {
+  position: string,
+  company: string,
+  dateRange: string,
+  responsabilities: Array<string>
+}
+
+export type optionNavigation = string;

@@ -10,7 +10,19 @@ import gitLogo from './assets/skills_icons/git.svg'
 import sqlserverLogo from './assets/skills_icons/sqlserver.svg'
 import mysqlLogo from './assets/skills_icons/mysql.svg'
 import tailwindLogo from './assets/skills_icons/tailwindcss.svg'
-import { Skill, ProjectData } from './types';
+import foodiusScreenshot from './assets/screenshots/foodius_screenshot.png';
+import windbnbScreenshot from './assets/screenshots/windbnb_screenshot.png';
+import todoappScreenshot from './assets/screenshots/todoapp_screenshot.png';
+import randomquoteScreenshot from './assets/screenshots/randomquote_screenshot.png';
+import { Skill, ProjectData, ExperienceData, optionNavigation } from './types';
+
+export const OPTIONS_NAVIGATION: Array<optionNavigation> = [
+  "About",
+  "Experience",
+  "Skills",
+  "Projects",
+  "Contact"
+]
 
 export const SKILLS_DATA: Array<Skill> = [
   {
@@ -65,23 +77,21 @@ export const SKILLS_DATA: Array<Skill> = [
 
 export const PROJECTS_DATA: Array<ProjectData> = [
   {
-    imageUrl: 'dfgdfgd',
+    imageUrl: foodiusScreenshot,
     title: 'Foodius',
     description: 'Food recipe application consuming a public API, where the user can filter recipes by name, category, ingredient and area, in addition, each recipe has its information detail.All this secured through full firebase authentication.',
     technologies: [
       'VS Code',
       'Angular',
       'Git',
-      'Github',
       'Tailwind CSS',
-      'Firebase Authentication',
-      'Typescript'
+      'Firebase',
     ],
     githubUrl: 'https://github.com/PatrickNv23/foodius',
     publicUrl: 'https://foodius.netlify.app/auth'
   },
   {
-    imageUrl: 'dfgdfgd',
+    imageUrl: windbnbScreenshot,
     title: 'Windbnb',
     description: 'A frontend challenge from the devChallenges page, inspired by the Airbnb page.',
     technologies: [
@@ -95,7 +105,7 @@ export const PROJECTS_DATA: Array<ProjectData> = [
     publicUrl: 'https://patricknv23windbnb.netlify.app'
   },
   {
-    imageUrl: 'dfgdfgd',
+    imageUrl: todoappScreenshot,
     title: 'TodoApp',
     description: 'A frontend challenge from the devChallenges page with filters for total, pending and completed tasks, and also contains a save in localStorage.',
     technologies: [
@@ -109,18 +119,31 @@ export const PROJECTS_DATA: Array<ProjectData> = [
     publicUrl: 'https://todoappnv.netlify.app'
   },
   {
-    imageUrl: 'dfgdfgd',
+    imageUrl: randomquoteScreenshot,
     title: 'Random Quote Generator',
     description: 'A front-end challenge of the devChallenges page with generation of random quotes from authors through the consumption of a public API, in addition, animations were added for a better user experience.',
     technologies: [
       'VS Code',
       'React',
       'Git',
-      'Github',
       'CSS Modules',
       'React-spring'
     ],
     githubUrl: 'https://github.com/PatrickNv23/Random-Quote-Generator-devChallenges',
     publicUrl: 'https://randomquotegeneratornv.netlify.app'
+  }
+]
+
+export const EXPERIENCES: Array<ExperienceData> = [
+  {
+    position: "Full Stack Developer",
+    company: "Dasser Innovating Solutions S.A.C.",
+    dateRange: "January 2023 - July 2023",
+    responsabilities: [
+      "Refactoring, good practices with clean architecture.",
+      "Component performance analysis.",
+      "Development of scalable functionalities for web applications.",
+      "Generation of scripts in the database to optimize data."
+    ]
   }
 ]
