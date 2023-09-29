@@ -9,7 +9,7 @@ export default function Skills() {
           skills.map((skill, index: number) => (
             <figure key={index} className='flex flex-col justify-center items-center h-auto cursor-pointer hover:scale-105 duration-200 border border-gray-300 rounded-md hover:border-yellow-400'>
               <img src={skill.nameLogo} alt="" className='w-10 h-10 mt-3' />
-              <figcaption className='text-sm py-3'>{skill.description}</figcaption>
+              <figcaption className='text-sm py-3 opacity-80'>{skill.description}</figcaption>
             </figure>
           ))
         }

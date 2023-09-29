@@ -24,7 +24,7 @@ export const Project: React.FC<Props> = ({ project, index }) => {
           <ul className="flex  justify-around">
             {
               project.technologies.map((technology, index: number) => (
-                <li className="text-[12px]" key={index}>{technology}</li>
+                <li className="text-[12px] text-gray-400" key={index}>{technology}</li>
               ))
             }
           </ul>

@@ -6,11 +6,11 @@ export default function About() {
       <h2 className='text-2xl pb-10 font-bold'>About me</h2>
       <section className="grid grid-cols-2">
         <div>
-          <p className='max-w-prose'>
+          <p className='max-w-prose  opacity-80'>
             Hello, my name is Patrick Alberto Navarro Vásquez and I am currently finishing my studies in Systems Engineering and Computer Science.
           </p>
           <br />
-          <p>On the other hand, I have been developing web applications since 2020, since my first approach to web development was through an HTML course and, little by little, it caught my attention and I decided to learn the necessary technologies on my own.</p>
+          <p className='opacity-80'>On the other hand, I have been developing web applications since 2020, since my first approach to web development was through an HTML course and, little by little, it caught my attention and I decided to learn the necessary technologies on my own.</p>
         </div>
         <div className='grid justify-center'>
           <picture>

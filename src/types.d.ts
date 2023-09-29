@@ -1,3 +1,5 @@
+import { ReactNode } from "react";
+
 export interface Skill {
   nameLogo: string,
   description: string
@@ -17,6 +19,11 @@ export interface ExperienceData {
   company: string,
   dateRange: string,
   responsabilities: Array<string>
+}
+
+export interface SocialNetwork {
+  iconSvg: ReactNode,
+  destinationUrl: string
 }
 
 export type optionNavigation = string;
