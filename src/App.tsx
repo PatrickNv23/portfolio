@@ -11,13 +11,13 @@ function App() {
 
   return (
     <>
-      <Header />
+      {/* <Header /> */}
       <main className="h-100vh">
         <Presentation />
         <About />
         <Experience />
         <Skills />
-        <ProjectList />
+        {/* <ProjectList /> */}
         <Contact />
       </main>
       <Footer />
