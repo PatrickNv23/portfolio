@@ -11,7 +11,7 @@ function App() {
 
   return (
     <>
-      {/* <Header /> */}
+      <Header />
       <main className="h-100vh">
         <Presentation />
         <About />
