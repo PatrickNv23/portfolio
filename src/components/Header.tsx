@@ -1,6 +1,8 @@
 import { useState, useRef } from "react"
 import { OPTIONS_NAVIGATION as options } from "../constants"
-
+import { Link } from 'react-scroll'
+import { Fade } from 'react-awesome-reveal'
+import { ANIMATION_DURATION } from "../constants"
 export default function Header() {
 
   const [isOpenNavBar, setIsOpenNavBar] = useState(false);
@@ -15,21 +17,28 @@ export default function Header() {
 
   return (
     <header className='md:min-h-[80px] h-auto flex md:justify-between md:items-center md:flex-row flex-col relative'>
-      <a href="#" className="hover:text-yellow-500 hover:scale-95 duration-200 py-4 md:py-0 px-6 md:px-0">PatrickNv23</a>
-      <nav ref={ref} className='h-auto md:w-auto w-full opacity-0 md:opacity-100 transition-all ease-in duration-500 hidden md:block'>
-        <ul className='flex w-100 md:items-center md:flex-row flex-col'>
-          {
-            options && options.map((option: string, index: number) => (
-              <li key={index} className="text-sm cursor-pointer hover:scale-95 duration-200 text-center py-4 md:py-0 px-6">{option}</li>
-            ))
-          }
-          <li className="flex justify-center px-6">
-            <a type="button" href="CV.pdf" download='CV_NavarroVásquezPatrickAlberto' className="text-yellow-400 w-24 h-10 border border-yellow-400 rounded-md text-sm  hover:scale-95 duration-200 hover:text-yellow-500 flex justify-center items-center">
-              <span>Resume</span>
-            </a>
-          </li>
-        </ul>
-      </nav>
+      <Fade duration={ANIMATION_DURATION} triggerOnce={true}>
+        <a href="#" className="hover:text-yellow-500 hover:scale-95 duration-200 py-4 md:py-0 px-6 md:px-0">PatrickNv23</a>
+        <nav ref={ref} className='h-auto md:w-auto w-full opacity-0 md:opacity-100 transition-all ease-in duration-500 hidden md:block'>
+
+          <ul className='flex w-100 md:items-center md:flex-row flex-col'>
+            {
+              options && options.map((option: string, index: number) => (
+                // <li key={index} className="text-sm cursor-pointer hover:scale-95 duration-200 text-center py-4 md:py-0 px-6">{option}</li>
+                <Link key={index} to={option} spy={true} smooth={true} duration={500} className="text-sm cursor-pointer hover:scale-95 duration-200 text-center py-4 md:py-0 px-6">
+                  {option}
+                </Link>
+              ))
+            }
+            <li className="flex justify-center px-6">
+              <a type="button" href="CV.pdf" download='CV_NavarroVásquezPatrickAlberto' className="text-yellow-400 w-24 h-10 border border-yellow-400 rounded-md text-sm  hover:scale-95 duration-200 hover:text-yellow-500 flex justify-center items-center">
+                <span>Resume</span>
+              </a>
+            </li>
+          </ul>
+
+        </nav>
+      </Fade>
 
       {
         !isOpenNavBar && (

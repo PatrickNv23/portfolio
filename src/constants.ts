@@ -24,6 +24,8 @@ export const OPTIONS_NAVIGATION: Array<optionNavigation> = [
   "Contact"
 ]
 
+export const ANIMATION_DURATION: number = 2000;
+
 export const SKILLS_DATA: Array<Skill> = [
   {
     nameLogo: javascriptLogo,

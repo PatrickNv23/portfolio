@@ -5,7 +5,7 @@ import { ProjectData } from "../types";
 export default function Projects() {
   return (
     <>
-      <article className="mt-20">
+      <article className="mt-20" id="Projects">
         <h2 className='text-2xl pb-10 font-bold'>Projects</h2>
         <div className="flex flex-col items-center">
           {
