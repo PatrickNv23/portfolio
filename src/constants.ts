@@ -10,10 +10,10 @@ import gitLogo from './assets/skills_icons/git.svg'
 import sqlserverLogo from './assets/skills_icons/sqlserver.svg'
 import mysqlLogo from './assets/skills_icons/mysql.svg'
 import tailwindLogo from './assets/skills_icons/tailwindcss.svg'
-import foodiusScreenshot from './assets/screenshots/foodius_screenshot.png';
-import windbnbScreenshot from './assets/screenshots/windbnb_screenshot.png';
-import todoappScreenshot from './assets/screenshots/todoapp_screenshot.png';
-import randomquoteScreenshot from './assets/screenshots/randomquote_screenshot.png';
+import foodiusScreenshot from './assets/screenshots/foodius_screenshot.webp';
+import windbnbScreenshot from './assets/screenshots/windbnb_screenshot.webp';
+import todoappScreenshot from './assets/screenshots/todoapp_screenshot.webp';
+import randomquoteScreenshot from './assets/screenshots/randomquote_screenshot.webp';
 import { Skill, ProjectData, ExperienceData, optionNavigation } from './types';
 
 export const OPTIONS_NAVIGATION: Array<optionNavigation> = [

@@ -8,11 +8,11 @@ export default function Presentation() {
         <span className="text-yellow-400 pt-8 pl-6 md:pl-0 lg:pl-0 xl:pl-0 2xl:pl-0">Hi, my name is </span>
         <div className="h-2/4">
 
-          <h1 className="font-bold pb-3 text-4xl sm:text-5xl md:text-7xl pl-6 md:pl-0 lg:pl-0 xl:pl-0 2xl:pl-0">PATRICK NAVARRO</h1>
+          <h1 className="font-bold pb-3 text-3xl sm:text-5xl md:text-7xl pl-6 md:pl-0 lg:pl-0 xl:pl-0 2xl:pl-0">PATRICK NAVARRO</h1>
 
 
-          <p className="max-w-prose opacity-80 px-6 md:px-0 lg:px-0 xl:px-0 2xl:px-0">I'm a software developer, specialized in building modern web applications.</p>
-          <p className="max-w-prose opacity-80 px-6 md:px-0 lg:px-0 xl:px-0 2xl:px-0">
+          <p className="max-w-prose opacity-80 px-6 md:px-0 lg:px-0 xl:px-0 2xl:px-0 text-[12px] sm:text-base">I'm a software developer, specialized in building modern web applications.</p>
+          <p className="max-w-prose opacity-80 px-6 md:px-0 lg:px-0 xl:px-0 2xl:px-0 text-[12px] sm:text-base">
             Currently, I am focused on improving my knowledge of web architectures and performance, to offer the best results.
           </p>
         </div>

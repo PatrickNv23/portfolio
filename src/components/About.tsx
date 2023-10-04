@@ -1,4 +1,4 @@
-import profile from '../assets/profile.jpg';
+import profile from '../assets/profile.webp';
 import { Fade } from 'react-awesome-reveal'
 import { ANIMATION_DURATION } from "../constants"
 

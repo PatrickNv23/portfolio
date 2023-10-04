@@ -21,7 +21,7 @@ export default function Experience() {
                 {
                   experience.responsabilities.map((responsability, index: number) => (
                     <li className="flex items-center px-6 md:px-0 lg:px-0 xl:px-0 2xl:px-0" key={index}>
-                      <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-chevron-right text-yellow-400" width="15" height="15" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                      <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-chevron-right text-yellow-400" width="15" height="15" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">
                         <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
                         <path d="M9 6l6 6l-6 6"></path>
                       </svg>
@@ -29,38 +29,10 @@ export default function Experience() {
                     </li>
                   ))
                 }
-                {/* <li className="flex items-center">
-                <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-chevron-right text-yellow-400" width="15" height="15" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                  <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                  <path d="M9 6l6 6l-6 6"></path>
-                </svg>
-                <span className="pl-4">Refactoring, good practices with clean architecture.</span>
-              </li>
-              <li>Component performance analysis.</li>
-              <li>Development of scalable functionalities for web applications.</li>
-              <li>Generation of scripts in the database to optimize data. </li> */}
               </ul>
             </section>
           ))
         }
-        {/* <section>
-        <h2>Full Stack Developer
-          <span className="font-bold text-yellow-400"> @ Dasser Innovating Solutions S.A.C.</span>
-        </h2>
-        <span className="text-xs text-gray-400">January 2023 - July 2023</span>
-        <ul>
-          <li className="flex items-center">
-            <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-chevron-right text-yellow-400" width="15" height="15" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-              <path d="M9 6l6 6l-6 6"></path>
-            </svg>
-            <span className="pl-4">Refactoring, good practices with clean architecture.</span>
-          </li>
-          <li>Component performance analysis.</li>
-          <li>Development of scalable functionalities for web applications.</li>
-          <li>Generation of scripts in the database to optimize data. </li>
-        </ul>
-      </section> */}
       </article>
     </Fade>
   )

@@ -6,7 +6,7 @@ export default function Projects() {
   return (
     <>
       <article className="mt-20" id="Projects">
-        <h2 className='text-2xl pb-10 font-bold'>Projects</h2>
+        <h2 className='text-2xl pb-10 font-bold pl-6 md:pl-0'>Projects</h2>
         <div className="flex flex-col items-center">
           {
             projects.map((project: ProjectData, index: number) => (
