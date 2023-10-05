@@ -11,8 +11,8 @@ export default function Presentation() {
           <h1 className="font-bold pb-3 text-3xl sm:text-5xl md:text-7xl pl-6 md:pl-0 lg:pl-0 xl:pl-0 2xl:pl-0">PATRICK NAVARRO</h1>
 
 
-          <p className="max-w-prose opacity-80 px-6 md:px-0 lg:px-0 xl:px-0 2xl:px-0 text-[12px] sm:text-base">I'm a software developer, specialized in building modern web applications.</p>
-          <p className="max-w-prose opacity-80 px-6 md:px-0 lg:px-0 xl:px-0 2xl:px-0 text-[12px] sm:text-base">
+          <p className="max-w-prose opacity-80 px-6 md:px-0 lg:px-0 xl:px-0 2xl:px-0">I'm a software developer, specialized in building modern web applications.</p>
+          <p className="max-w-prose opacity-80 px-6 md:px-0 lg:px-0 xl:px-0 2xl:px-0">
             Currently, I am focused on improving my knowledge of web architectures and performance, to offer the best results.
           </p>
         </div>
