@@ -147,5 +147,16 @@ export const EXPERIENCES: Array<ExperienceData> = [
       "Development of scalable functionalities for web applications.",
       "Generation of scripts in the database to optimize data."
     ]
+  },
+  {
+    position: "Full Stack Developer",
+    company: "Avatar Global SAC",
+    dateRange: "March 2024 - Present",
+    responsabilities: [
+      "Development of scalable functionalities for multiplatform systems.",
+      "Code refactoring applying good practices.",
+      "Support for existing functionalities.",
+      "Continuous training."
+    ]
   }
 ]

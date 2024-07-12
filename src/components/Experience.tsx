@@ -9,7 +9,7 @@ export default function Experience() {
         <h2 className='text-2xl pb-10 font-bold  pl-6 md:pl-0 lg:pl-0 xl:pl-0 2xl:pl-0'>Experience</h2>
         {
           experiences.map((experience, index: number) => (
-            <section key={index}>
+            <section key={index} className="mb-5">
               <div className="flex flex-col md:flex-row">
                 <h2 className="pl-6 md:pl-0 lg:pl-0 xl:pl-0 2xl:pl-0 pr-0 md:pr-2 lg:pr-2 xl:pr-2 2xl:pr-2">{experience.position}
                 </h2>
