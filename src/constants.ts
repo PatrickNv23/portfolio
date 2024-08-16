@@ -139,17 +139,6 @@ export const PROJECTS_DATA: Array<ProjectData> = [
 export const EXPERIENCES: Array<ExperienceData> = [
   {
     position: "Full Stack Developer",
-    company: "Dasser Innovating Solutions S.A.C.",
-    dateRange: "January 2023 - July 2023",
-    responsabilities: [
-      "Refactoring, good practices with clean architecture.",
-      "Component performance analysis.",
-      "Development of scalable functionalities for web applications.",
-      "Generation of scripts in the database to optimize data."
-    ]
-  },
-  {
-    position: "Full Stack Developer",
     company: "Avatar Global SAC",
     dateRange: "March 2024 - Present",
     responsabilities: [
@@ -157,6 +146,17 @@ export const EXPERIENCES: Array<ExperienceData> = [
       "Code refactoring applying good practices.",
       "Support for existing functionalities.",
       "Continuous training."
+    ]
+  },
+  {
+    position: "Full Stack Developer",
+    company: "Dasser Innovating Solutions S.A.C.",
+    dateRange: "January 2023 - July 2023",
+    responsabilities: [
+      "Refactoring, good practices with clean architecture.",
+      "Component performance analysis.",
+      "Development of scalable functionalities for web applications.",
+      "Generation of scripts in the database to optimize data."
     ]
   }
 ]
