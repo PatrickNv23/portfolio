@@ -15,7 +15,7 @@ export default function About() {
           </div>
           <div>
             <p className='max-w-prose  opacity-80 px-6 md:px-0 lg:px-0 xl:px-0 2xl:px-0'>
-              Hello, my name is Patrick Alberto Navarro Vásquez and I am currently finishing my studies in Systems Engineering and Computer Science.
+              Hello, my name is Patrick Alberto Navarro Vásquez, and I am a Systems and Computer Engineer.
             </p>
             <br />
             <p className='opacity-80 px-6 md:px-0 lg:px-0 xl:px-0 2xl:px-0'>On the other hand, I have been developing web applications since 2020, since my first approach to web development was through an HTML course and, little by little, it caught my attention and I decided to learn the necessary technologies on my own.</p>
