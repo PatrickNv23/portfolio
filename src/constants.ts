@@ -15,6 +15,7 @@ import windbnbScreenshot from './assets/screenshots/windbnb_screenshot.webp';
 import kitchenDisplaySystemScreenshot from './assets/screenshots/kitchendisplaysystem_screenshot.webp';
 import todoappScreenshot from './assets/screenshots/todoapp_screenshot.webp';
 import randomquoteScreenshot from './assets/screenshots/randomquote_screenshot.webp';
+import realtimechatScreenshot from './assets/screenshots/realtimechat_screenshot.webp';
 import { Skill, ProjectData, ExperienceData, optionNavigation } from './types';
 
 export const OPTIONS_NAVIGATION: Array<optionNavigation> = [
@@ -79,6 +80,20 @@ export const SKILLS_DATA: Array<Skill> = [
 ]
 
 export const PROJECTS_DATA: Array<ProjectData> = [
+  {
+    imageUrl: realtimechatScreenshot,
+    title: 'Real Time Chat',
+    description: 'Real-time chat application with general room, where users can join and chat with each other, in addition, the user has a profile management section.',
+    technologies: [
+      'Angular',
+      'Daisy UI',
+      '.NET Core',
+      'SignalR',
+      'Supabase',
+    ],
+    githubUrl: 'https://github.com/PatrickNv23',
+    publicUrl: 'https://real-time-chat-frontend.netlify.app/auth'
+  },
   {
     imageUrl: foodiusScreenshot,
     title: 'Foodius',
