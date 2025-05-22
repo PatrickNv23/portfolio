@@ -14,7 +14,6 @@ import foodiusScreenshot from './assets/screenshots/foodius_screenshot.webp';
 import windbnbScreenshot from './assets/screenshots/windbnb_screenshot.webp';
 import kitchenDisplaySystemScreenshot from './assets/screenshots/kitchendisplaysystem_screenshot.webp';
 import todoappScreenshot from './assets/screenshots/todoapp_screenshot.webp';
-import randomquoteScreenshot from './assets/screenshots/randomquote_screenshot.webp';
 import realtimechatScreenshot from './assets/screenshots/realtimechat_screenshot.webp';
 import { Skill, ProjectData, ExperienceData, optionNavigation } from './types';
 
@@ -80,6 +79,20 @@ export const SKILLS_DATA: Array<Skill> = [
 ]
 
 export const PROJECTS_DATA: Array<ProjectData> = [
+  {
+    imageUrl: 'https://github.com/user-attachments/assets/34432acd-a10a-4aa9-99ee-531f7f688a17',
+    title: 'SkillSwap',
+    description: 'An application for knowledge sharing and continuous improvement.',
+    technologies: [
+      'React',
+      'TailwindCSS',
+      'Supabase',
+      'Clerk',
+      'Tanstack Query'
+    ],
+    githubUrl: 'https://github.com/PatrickNv23/skill-swap-web',
+    publicUrl: 'https://skillswaplatam.netlify.app/'
+  },
   {
     imageUrl: realtimechatScreenshot,
     title: 'Real Time Chat',
@@ -150,28 +163,25 @@ export const PROJECTS_DATA: Array<ProjectData> = [
     ],
     githubUrl: 'https://github.com/PatrickNv23/TodoApp-devChallenges',
     publicUrl: 'https://todoappnv.netlify.app'
-  },
-  {
-    imageUrl: randomquoteScreenshot,
-    title: 'Random Quote Generator',
-    description: 'A front-end challenge of the devChallenges page with generation of random quotes from authors through the consumption of a public API, in addition, animations were added for a better user experience.',
-    technologies: [
-      'VS Code',
-      'React',
-      'Git',
-      'CSS Modules',
-      'React-spring'
-    ],
-    githubUrl: 'https://github.com/PatrickNv23/Random-Quote-Generator-devChallenges',
-    publicUrl: 'https://randomquotegeneratornv.netlify.app'
   }
 ]
 
 export const EXPERIENCES: Array<ExperienceData> = [
   {
     position: "Full Stack Developer",
+    company: "Dasser Innovating Solutions S.A.C.",
+    dateRange: "December 2024 - Present",
+    responsabilities: [
+      "I developed code architecture models following design patterns and best practices, generating standards for new projects.",
+      "I provided consulting services to provide onboarding for new developers.",
+      "I applied security techniques to manage sensitive data, improving the average test time to production by 50%",
+      "I optimized large volumes of geospatial data, improving application performance and load by 60%."
+    ]
+  },
+  {
+    position: "Full Stack Developer",
     company: "Avatar Global SAC",
-    dateRange: "March 2024 - Present",
+    dateRange: "March 2024 - September 2024",
     responsabilities: [
       "Development of scalable functionalities for multiplatform systems.",
       "Code refactoring applying good practices.",
